@@ -2,7 +2,7 @@
 
 A standalone Model Context Protocol (MCP) server that provides AI agents with direct access to the World Bank Data360 API. Built with Python 3.11 using **Domain-Driven Design (DDD)** and **Clean Architecture** principles.
 
-This server exposes 4 powerful tools over standard I/O (`stdio`), allowing any MCP-compatible AI assistant (like Claude Desktop, Cursor, Copilot, or Antigravity) to automatically search for, disambiguate, fetch, and export global economic indicators.
+This server exposes 4 powerful tools over standard I/O (`stdio`), allowing any MCP-compatible AI assistant (like Claude Desktop, Cursor or your Custom Chatbot) to automatically search for, disambiguate, fetch, and export global economic indicators.
 
 ---
 
@@ -37,10 +37,9 @@ The codebase strictly follows a 4-layer architecture:
 ## 🚀 Usage
 
 ### Option 1: AI Assistants (Production)
-You do not need to run the server manually. You just need to register it in your AI client's MCP configuration file (this works identically for **Claude Desktop**, **Cursor**, **Copilot**, **Antigravity**, etc.). 
+You do not need to run the server manually. You just need to register it in your AI client's MCP configuration file (this works identically for **Claude Desktop**, **Cursor**, **Copilot**, **Antigravity**, Your Custom MCP Client or Chatbot). 
 
-Add the following standard JSON block to your client's config file (e.g., `%APPDATA%\Claude\claude_desktop_config.json` for Claude on Windows):
-
+Add the following standard JSON block to your client's config file
 ```json
 {
   "mcpServers": {
