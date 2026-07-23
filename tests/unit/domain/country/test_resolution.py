@@ -1,5 +1,4 @@
 """Unit tests for domain/country/resolution.py."""
-import pytest
 
 from src.core.result import ClarificationNeeded, NotFound
 from src.domain.country.entities import Country

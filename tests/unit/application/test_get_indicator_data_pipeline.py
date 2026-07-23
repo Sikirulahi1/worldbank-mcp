@@ -1,6 +1,5 @@
 """test_get_indicator_data_pipeline.py — Tests for the get indicator data pipeline."""
 import pytest
-from unittest.mock import AsyncMock
 
 from src.application.get_indicator_data.dto import GetIndicatorDataRequest
 from src.application.get_indicator_data.pipeline import GetIndicatorDataPipeline

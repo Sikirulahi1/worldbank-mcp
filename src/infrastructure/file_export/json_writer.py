@@ -1,7 +1,6 @@
 """json_writer.py — JSON file writer implementation."""
 import json
 import os
-from dataclasses import asdict
 
 from typing import Any
 import aiofiles

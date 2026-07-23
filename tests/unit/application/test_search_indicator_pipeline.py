@@ -1,6 +1,5 @@
 """test_search_indicator_pipeline.py — Tests for the search indicator pipeline."""
 import pytest
-from unittest.mock import AsyncMock
 
 from src.application.search_indicator.dto import SearchIndicatorRequest
 from src.application.search_indicator.pipeline import SearchIndicatorPipeline

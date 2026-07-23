@@ -10,7 +10,7 @@ from src.application.ports.data_port import IDataPort
 from src.application.ports.file_port import IFileWriter
 from src.application.ports.search_port import ISearchPort
 from src.core.exceptions import UnsupportedFormatError
-from src.core.result import ClarificationNeeded, DataResult, NotFound
+from src.core.result import ClarificationNeeded, NotFound
 from src.domain.indicator.entities import IndicatorCandidate, Observation
 
 

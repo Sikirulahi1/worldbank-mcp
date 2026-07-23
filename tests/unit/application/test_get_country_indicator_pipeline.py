@@ -1,6 +1,5 @@
 """test_get_country_indicator_pipeline.py — Tests for the get country indicator pipeline."""
 import pytest
-from unittest.mock import AsyncMock
 
 from src.application.get_country_indicator.dto import GetCountryIndicatorRequest
 from src.application.get_country_indicator.pipeline import GetCountryIndicatorPipeline

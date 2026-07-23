@@ -1,7 +1,6 @@
 """csv_writer.py — CSV file writer implementation."""
 import csv
 import os
-from dataclasses import asdict
 
 from typing import Any
 import aiofiles

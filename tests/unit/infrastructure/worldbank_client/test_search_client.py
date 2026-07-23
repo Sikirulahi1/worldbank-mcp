@@ -1,7 +1,7 @@
 """test_search_client.py — Tests for the search client."""
 import json
 from pathlib import Path
-from unittest.mock import AsyncMock, Mock, patch
+from unittest.mock import AsyncMock, Mock
 
 import httpx
 import pytest

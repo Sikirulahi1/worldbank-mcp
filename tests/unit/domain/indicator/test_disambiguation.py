@@ -1,7 +1,6 @@
 """Unit tests for domain/indicator/disambiguation.py."""
 import json
 from pathlib import Path
-import pytest
 
 from src.core.result import ClarificationNeeded, NotFound
 from src.domain.indicator.disambiguation import disambiguate_candidates

@@ -5,7 +5,6 @@ from pathlib import Path
 
 import pytest
 
-from src.core.exceptions import ExportError
 from src.infrastructure.file_export.csv_writer import CSVWriter
 from src.infrastructure.file_export.json_writer import JSONWriter
 

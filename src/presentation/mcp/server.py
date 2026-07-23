@@ -1,5 +1,4 @@
 """server.py — Registers all four MCP tools and returns the server instance."""
-import mcp.server.stdio
 from mcp.server import Server
 from mcp.types import Tool
 
