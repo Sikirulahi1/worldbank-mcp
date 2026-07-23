@@ -57,13 +57,14 @@ async def test_fetch_with_dimensions(mock_client):
     
     assert len(obs) > 0
     mock_client.get.assert_called_once_with(
-        "/api/v1/data",
+        "/data360/data",
         params={
-            "indicators": "WB_ESG_NY_GDP_MKTP_KD_ZG",
-            "countries": "NGA",
-            "timeframes": "1999-2010",
-            "format": "json",
-            "page": 1,
+            "DATABASE_ID": "WB_ESG",
+            "INDICATOR": "WB_ESG_NY_GDP_MKTP_KD_ZG",
+            "REF_AREA": "NGA",
+            "timePeriodFrom": "1999",
+            "timePeriodTo": "2010",
+            "skip": 0,
             "sex": "F"
         }
     )
