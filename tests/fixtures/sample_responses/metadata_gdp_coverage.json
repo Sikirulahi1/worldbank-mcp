@@ -1,0 +1,1233 @@
+{
+  "@odata.context": "https://itsda-dataexp-prd.search.windows.net/indexes('data360-metadata')/$metadata#docs(*)",
+  "@odata.count": 1,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "META_WB_ESG_NY_GDP_MKTP_KD_ZG",
+      "idno": "8f3dc8d3-2ca8-476a-b7d0-f5a26ce4f941",
+      "type": "indicator",
+      "subtype": "timeseries",
+      "disaggregation_types": [],
+      "isDelete": null,
+      "cfPath": null,
+      "doc_type": null,
+      "remove_chart_type": "stackedBar, pie",
+      "data_confidentiality_code": "PU",
+      "data_confidentiality_name": "Public",
+      "dsd_name": "DATA360",
+      "dsd_version": "1.2",
+      "dsd_codelist": [
+        "DATA_SOURCE",
+        "FREQ",
+        "REF_AREA",
+        "INDICATOR",
+        "SEX",
+        "AGE",
+        "URBANISATION",
+        "UNIT_MEASURE",
+        "COMP_BREAKDOWN_1",
+        "COMP_BREAKDOWN_2",
+        "COMP_BREAKDOWN_3",
+        "AGG_METHOD",
+        "UNIT_TYPE",
+        "DECIMALS",
+        "DATABASE_ID",
+        "TIME_FORMAT",
+        "UNIT_MULT",
+        "OBS_STATUS",
+        "OBS_CONF"
+      ],
+      "is_active": null,
+      "metadata_information": {
+        "title": "Metadata for GDP growth (annual %)",
+        "idno": "META_WB_ESG_NY_GDP_MKTP_KD_ZG",
+        "prod_date": "2024-12-18",
+        "version_statement": {
+          "version": "1.1",
+          "version_date": "2025-03-17",
+          "version_resp": null,
+          "version_notes": "Updated title formatting for consistency."
+        },
+        "producers": [
+          {
+            "name": "Development Economics Data Group",
+            "abbr": "DECDG",
+            "affiliation": "World Bank",
+            "role": null
+          }
+        ]
+      },
+      "series_description": {
+        "idno": "WB_ESG_NY_GDP_MKTP_KD_ZG",
+        "doi": null,
+        "name": "GDP growth (annual %)",
+        "display_name": null,
+        "database_id": "WB_ESG",
+        "database_name": "Environment, Social & Governance (ESG)",
+        "date_last_update": null,
+        "date_released": null,
+        "measurement_unit": "Annual percentage",
+        "release_calendar": null,
+        "periodicity": "Annual",
+        "base_period": null,
+        "definition_short": null,
+        "definition_long": "Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.",
+        "statistical_concept": null,
+        "methodology": "Gross domestic product (GDP) represents the sum of value added by all its producers. Value added is the value of the gross output of producers less the value of intermediate goods and services consumed in production, before accounting for consumption of fixed capital in production. The United Nations System of National Accounts calls for value added to be valued at either basic prices (excluding net taxes on products) or producer prices (including net taxes on products paid by producers but excluding sales or value added taxes). Both valuations exclude transport charges that are invoiced separately by producers. Total GDP is measured at purchaser prices. Value added by industry is normally measured at basic prices. When value added is measured at producer prices.\n\nGrowth rates of GDP and its components are calculated using the least squares method and constant price data in the local currency. Constant price in U.S. dollar series are used to calculate regional and income group growth rates. Local currency series are converted to constant U.S. dollars using an exchange rate in the common reference year.",
+        "derivation": null,
+        "imputation": null,
+        "missing": null,
+        "quality_checks": null,
+        "quality_note": null,
+        "sources_discrepancies": null,
+        "series_break": null,
+        "limitation": "Each industry's contribution to growth in the economy's output is measured by growth in the industry's value added. In principle, value added in constant prices can be estimated by measuring the quantity of goods and services produced in a period, valuing them at an agreed set of base year prices, and subtracting the cost of intermediate inputs, also in constant prices. This double-deflation method requires detailed information on the structure of prices of inputs and outputs.\n\nIn many industries, however, value added is extrapolated from the base year using single volume indexes of outputs or, less commonly, inputs. Particularly in the services industries, including most of government, value added in constant prices is often imputed from labor inputs, such as real wages or number of employees. In the absence of well defined measures of output, measuring the growth of services remains difficult.\n\nMoreover, technical progress can lead to improvements in production processes and in the quality of goods and services that, if not properly accounted for, can distort measures of value added and thus of growth. When inputs are used to estimate output, as for nonmarket services, unmeasured technical progress leads to underestimates of the volume of output. Similarly, unmeasured improvements in quality lead to underestimates of the value of output and value added. The result can be underestimates of growth and productivity improvement and overestimates of inflation.\n\nInformal economic activities pose a particular measurement problem, especially in developing countries, where much economic activity is unrecorded. A complete picture of the economy requires estimating household outputs produced for home use, sales in informal markets, barter exchanges, and illicit or deliberately unreported activities. The consistency and completeness of such estimates depend on the skill and methods of the compiling statisticians.\n\nRebasing of national accounts can alter the measured growth rate of an economy and lead to breaks in series that affect the consistency of data over time. When countries rebase their national accounts, they update the weights assigned to various components to better reflect current patterns of production or uses of output. The new base year should represent normal operation of the economy - it should be a year without major shocks or distortions. Some developing countries have not rebased their national accounts for many years. Using an old base year can be misleading because implicit price and volume weights become progressively less relevant and useful.\n\nTo obtain comparable series of constant price data for computing aggregates, the World Bank rescales GDP and value added by industrial origin to a common reference year. Because rescaling changes the implicit weights used in forming regional and income group aggregates, aggregate growth rates are not comparable with those from earlier editions with different base years. Rescaling may result in a discrepancy between the rescaled GDP and the sum of the rescaled components. To avoid distortions in the growth rates, the discrepancy is left unallocated. As a result, the weighted average of the growth rates of the components generally does not equal the GDP growth rate.",
+        "relevance": "An economy's growth is measured by the change in the volume of its output or in the real incomes of its residents. The 2008 United Nations System of National Accounts (2008 SNA) offers three plausible indicators for calculating growth: the volume of gross domestic product (GDP), real gross domestic income, and real gross national income. The volume of GDP is the sum of value added, measured at constant prices, by households, government, and industries operating in the economy. GDP accounts for all domestic production, regardless of whether the income accrues to domestic or foreign institutions.",
+        "aggregation_method": "Weighted average",
+        "disaggregation": null,
+        "confidentiality": null,
+        "confidentiality_status": "PU",
+        "confidentiality_note": null,
+        "citation_requirement": "World Bank national accounts data, and OECD National Accounts data files.",
+        "sources_note": null,
+        "acknowledgement_statement": null,
+        "disclaimer": null,
+        "economies_count": null,
+        "csv_link": "https://data360files.worldbank.org/data360-data/data/WB_ESG/WB_ESG_NY_GDP_MKTP_KD_ZG.csv",
+        "excel_link": null,
+        "json_link": "https://data360files.worldbank.org/data360-data/metadata/WB_ESG/WB_ESG_NY_GDP_MKTP_KD_ZG.json",
+        "api_link": "https://data360api.worldbank.org/data360/data?top=1000&skip=0&DATABASE_ID=WB_ESG&INDICATOR=WB_ESG_NY_GDP_MKTP_KD_ZG",
+        "indicator_count": null,
+        "apiservice_link": null,
+        "api_explorer_link": "http://datacatalog.worldbank.org/data360/api/execute?tab=Data&id=1&DATABASE_ID=WB_ESG&INDICATOR=WB_ESG_NY_GDP_MKTP_KD_ZG",
+        "authoring_entity": [],
+        "version_statement": {
+          "version": null,
+          "version_date": "2026-01-05",
+          "version_resp": null,
+          "version_notes": null
+        },
+        "aliases": [
+          {
+            "alias": "NY.GDP.MKTP.KD.ZG"
+          }
+        ],
+        "alternate_identifiers": [],
+        "languages": [
+          {
+            "name": "English",
+            "code": "EN"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": null,
+            "label": "Geographic area",
+            "description": "Country/economy, Region"
+          }
+        ],
+        "definition_references": [],
+        "statistical_concept_references": [],
+        "methodology_references": [],
+        "derivation_references": [],
+        "imputation_references": [],
+        "topics": [],
+        "time_periods": [
+          {
+            "start": "1961",
+            "end": "2023",
+            "notes": null
+          }
+        ],
+        "ref_country": [
+          {
+            "name": "Argentina",
+            "code": "ARG"
+          },
+          {
+            "name": "Australia",
+            "code": "AUS"
+          },
+          {
+            "name": "Austria",
+            "code": "AUT"
+          },
+          {
+            "name": "Burundi",
+            "code": "BDI"
+          },
+          {
+            "name": "Belgium",
+            "code": "BEL"
+          },
+          {
+            "name": "Benin",
+            "code": "BEN"
+          },
+          {
+            "name": "Burkina Faso",
+            "code": "BFA"
+          },
+          {
+            "name": "Bangladesh",
+            "code": "BGD"
+          },
+          {
+            "name": "Bahamas, The",
+            "code": "BHS"
+          },
+          {
+            "name": "Belize",
+            "code": "BLZ"
+          },
+          {
+            "name": "Bolivia",
+            "code": "BOL"
+          },
+          {
+            "name": "Brazil",
+            "code": "BRA"
+          },
+          {
+            "name": "Barbados",
+            "code": "BRB"
+          },
+          {
+            "name": "Botswana",
+            "code": "BWA"
+          },
+          {
+            "name": "Central African Republic",
+            "code": "CAF"
+          },
+          {
+            "name": "Canada",
+            "code": "CAN"
+          },
+          {
+            "name": "Switzerland",
+            "code": "CHE"
+          },
+          {
+            "name": "Chile",
+            "code": "CHL"
+          },
+          {
+            "name": "China",
+            "code": "CHN"
+          },
+          {
+            "name": "Cote d'Ivoire",
+            "code": "CIV"
+          },
+          {
+            "name": "Cameroon",
+            "code": "CMR"
+          },
+          {
+            "name": "Congo, Dem. Rep.",
+            "code": "COD"
+          },
+          {
+            "name": "Congo, Rep.",
+            "code": "COG"
+          },
+          {
+            "name": "Colombia",
+            "code": "COL"
+          },
+          {
+            "name": "Costa Rica",
+            "code": "CRI"
+          },
+          {
+            "name": "Germany",
+            "code": "DEU"
+          },
+          {
+            "name": "Denmark",
+            "code": "DNK"
+          },
+          {
+            "name": "Dominican Republic",
+            "code": "DOM"
+          },
+          {
+            "name": "Algeria",
+            "code": "DZA"
+          },
+          {
+            "name": "Ecuador",
+            "code": "ECU"
+          },
+          {
+            "name": "Egypt, Arab Rep.",
+            "code": "EGY"
+          },
+          {
+            "name": "Spain",
+            "code": "ESP"
+          },
+          {
+            "name": "Finland",
+            "code": "FIN"
+          },
+          {
+            "name": "Fiji",
+            "code": "FJI"
+          },
+          {
+            "name": "France",
+            "code": "FRA"
+          },
+          {
+            "name": "Gabon",
+            "code": "GAB"
+          },
+          {
+            "name": "United Kingdom",
+            "code": "GBR"
+          },
+          {
+            "name": "Georgia",
+            "code": "GEO"
+          },
+          {
+            "name": "Ghana",
+            "code": "GHA"
+          },
+          {
+            "name": "Greece",
+            "code": "GRC"
+          },
+          {
+            "name": "Guatemala",
+            "code": "GTM"
+          },
+          {
+            "name": "Guyana",
+            "code": "GUY"
+          },
+          {
+            "name": "Honduras",
+            "code": "HND"
+          },
+          {
+            "name": "Haiti",
+            "code": "HTI"
+          },
+          {
+            "name": "Hungary",
+            "code": "HUN"
+          },
+          {
+            "name": "Indonesia",
+            "code": "IDN"
+          },
+          {
+            "name": "India",
+            "code": "IND"
+          },
+          {
+            "name": "Ireland",
+            "code": "IRL"
+          },
+          {
+            "name": "Iran, Islamic Rep.",
+            "code": "IRN"
+          },
+          {
+            "name": "Iraq",
+            "code": "IRQ"
+          },
+          {
+            "name": "Iceland",
+            "code": "ISL"
+          },
+          {
+            "name": "Israel",
+            "code": "ISR"
+          },
+          {
+            "name": "Italy",
+            "code": "ITA"
+          },
+          {
+            "name": "Japan",
+            "code": "JPN"
+          },
+          {
+            "name": "Kenya",
+            "code": "KEN"
+          },
+          {
+            "name": "Korea, Rep.",
+            "code": "KOR"
+          },
+          {
+            "name": "Liberia",
+            "code": "LBR"
+          },
+          {
+            "name": "Libya",
+            "code": "LBY"
+          },
+          {
+            "name": "Lesotho",
+            "code": "LSO"
+          },
+          {
+            "name": "Luxembourg",
+            "code": "LUX"
+          },
+          {
+            "name": "Madagascar",
+            "code": "MDG"
+          },
+          {
+            "name": "Mexico",
+            "code": "MEX"
+          },
+          {
+            "name": "Myanmar",
+            "code": "MMR"
+          },
+          {
+            "name": "Mauritius",
+            "code": "MUS"
+          },
+          {
+            "name": "Malawi",
+            "code": "MWI"
+          },
+          {
+            "name": "Malaysia",
+            "code": "MYS"
+          },
+          {
+            "name": "Niger",
+            "code": "NER"
+          },
+          {
+            "name": "Nigeria",
+            "code": "NGA"
+          },
+          {
+            "name": "Nicaragua",
+            "code": "NIC"
+          },
+          {
+            "name": "Netherlands",
+            "code": "NLD"
+          },
+          {
+            "name": "Norway",
+            "code": "NOR"
+          },
+          {
+            "name": "Nepal",
+            "code": "NPL"
+          },
+          {
+            "name": "New Zealand",
+            "code": "NZL"
+          },
+          {
+            "name": "Oman",
+            "code": "OMN"
+          },
+          {
+            "name": "Pakistan",
+            "code": "PAK"
+          },
+          {
+            "name": "Panama",
+            "code": "PAN"
+          },
+          {
+            "name": "Peru",
+            "code": "PER"
+          },
+          {
+            "name": "Philippines",
+            "code": "PHL"
+          },
+          {
+            "name": "Papua New Guinea",
+            "code": "PNG"
+          },
+          {
+            "name": "Portugal",
+            "code": "PRT"
+          },
+          {
+            "name": "Paraguay",
+            "code": "PRY"
+          },
+          {
+            "name": "Rwanda",
+            "code": "RWA"
+          },
+          {
+            "name": "Saudi Arabia",
+            "code": "SAU"
+          },
+          {
+            "name": "Sudan",
+            "code": "SDN"
+          },
+          {
+            "name": "Senegal",
+            "code": "SEN"
+          },
+          {
+            "name": "Singapore",
+            "code": "SGP"
+          },
+          {
+            "name": "Sierra Leone",
+            "code": "SLE"
+          },
+          {
+            "name": "Somalia",
+            "code": "SOM"
+          },
+          {
+            "name": "Suriname",
+            "code": "SUR"
+          },
+          {
+            "name": "Sweden",
+            "code": "SWE"
+          },
+          {
+            "name": "Seychelles",
+            "code": "SYC"
+          },
+          {
+            "name": "Syrian Arab Republic",
+            "code": "SYR"
+          },
+          {
+            "name": "Chad",
+            "code": "TCD"
+          },
+          {
+            "name": "Togo",
+            "code": "TGO"
+          },
+          {
+            "name": "Thailand",
+            "code": "THA"
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "code": "TTO"
+          },
+          {
+            "name": "Turkiye",
+            "code": "TUR"
+          },
+          {
+            "name": "Tanzania",
+            "code": "TZA"
+          },
+          {
+            "name": "Uruguay",
+            "code": "URY"
+          },
+          {
+            "name": "United States",
+            "code": "USA"
+          },
+          {
+            "name": "St. Vincent and the Grenadines",
+            "code": "VCT"
+          },
+          {
+            "name": "Venezuela, RB",
+            "code": "VEN"
+          },
+          {
+            "name": "South Africa",
+            "code": "ZAF"
+          },
+          {
+            "name": "Zambia",
+            "code": "ZMB"
+          },
+          {
+            "name": "Zimbabwe",
+            "code": "ZWE"
+          },
+          {
+            "name": "Ethiopia",
+            "code": "ETH"
+          },
+          {
+            "name": "Sri Lanka",
+            "code": "LKA"
+          },
+          {
+            "name": "Mauritania",
+            "code": "MRT"
+          },
+          {
+            "name": "Tunisia",
+            "code": "TUN"
+          },
+          {
+            "name": "El Salvador",
+            "code": "SLV"
+          },
+          {
+            "name": "Gambia, The",
+            "code": "GMB"
+          },
+          {
+            "name": "Jamaica",
+            "code": "JAM"
+          },
+          {
+            "name": "Morocco",
+            "code": "MAR"
+          },
+          {
+            "name": "Mali",
+            "code": "MLI"
+          },
+          {
+            "name": "Andorra",
+            "code": "AND"
+          },
+          {
+            "name": "United Arab Emirates",
+            "code": "ARE"
+          },
+          {
+            "name": "Bahrain",
+            "code": "BHR"
+          },
+          {
+            "name": "Bhutan",
+            "code": "BTN"
+          },
+          {
+            "name": "Cuba",
+            "code": "CUB"
+          },
+          {
+            "name": "Micronesia, Fed. Sts.",
+            "code": "FSM"
+          },
+          {
+            "name": "Guinea",
+            "code": "GIN"
+          },
+          {
+            "name": "Guinea-Bissau",
+            "code": "GNB"
+          },
+          {
+            "name": "Kiribati",
+            "code": "KIR"
+          },
+          {
+            "name": "Kuwait",
+            "code": "KWT"
+          },
+          {
+            "name": "Liechtenstein",
+            "code": "LIE"
+          },
+          {
+            "name": "Monaco",
+            "code": "MCO"
+          },
+          {
+            "name": "Maldives",
+            "code": "MDV"
+          },
+          {
+            "name": "Marshall Islands",
+            "code": "MHL"
+          },
+          {
+            "name": "Malta",
+            "code": "MLT"
+          },
+          {
+            "name": "Nauru",
+            "code": "NRU"
+          },
+          {
+            "name": "Palau",
+            "code": "PLW"
+          },
+          {
+            "name": "Qatar",
+            "code": "QAT"
+          },
+          {
+            "name": "Sao Tome and Principe",
+            "code": "STP"
+          },
+          {
+            "name": "Eswatini",
+            "code": "SWZ"
+          },
+          {
+            "name": "Tuvalu",
+            "code": "TUV"
+          },
+          {
+            "name": "Samoa",
+            "code": "WSM"
+          },
+          {
+            "name": "Brunei Darussalam",
+            "code": "BRN"
+          },
+          {
+            "name": "Cyprus",
+            "code": "CYP"
+          },
+          {
+            "name": "Cambodia",
+            "code": "KHM"
+          },
+          {
+            "name": "Jordan",
+            "code": "JOR"
+          },
+          {
+            "name": "Antigua and Barbuda",
+            "code": "ATG"
+          },
+          {
+            "name": "Dominica",
+            "code": "DMA"
+          },
+          {
+            "name": "Grenada",
+            "code": "GRD"
+          },
+          {
+            "name": "St. Kitts and Nevis",
+            "code": "KNA"
+          },
+          {
+            "name": "St. Lucia",
+            "code": "LCA"
+          },
+          {
+            "name": "Vanuatu",
+            "code": "VUT"
+          },
+          {
+            "name": "Angola",
+            "code": "AGO"
+          },
+          {
+            "name": "Albania",
+            "code": "ALB"
+          },
+          {
+            "name": "Bulgaria",
+            "code": "BGR"
+          },
+          {
+            "name": "Comoros",
+            "code": "COM"
+          },
+          {
+            "name": "Cabo Verde",
+            "code": "CPV"
+          },
+          {
+            "name": "Equatorial Guinea",
+            "code": "GNQ"
+          },
+          {
+            "name": "Mozambique",
+            "code": "MOZ"
+          },
+          {
+            "name": "Namibia",
+            "code": "NAM"
+          },
+          {
+            "name": "Solomon Islands",
+            "code": "SLB"
+          },
+          {
+            "name": "Mongolia",
+            "code": "MNG"
+          },
+          {
+            "name": "Tonga",
+            "code": "TON"
+          },
+          {
+            "name": "Uganda",
+            "code": "UGA"
+          },
+          {
+            "name": "Lao PDR",
+            "code": "LAO"
+          },
+          {
+            "name": "Viet Nam",
+            "code": "VNM"
+          },
+          {
+            "name": "Tajikistan",
+            "code": "TJK"
+          },
+          {
+            "name": "Kyrgyz Republic",
+            "code": "KGZ"
+          },
+          {
+            "name": "Turkmenistan",
+            "code": "TKM"
+          },
+          {
+            "name": "Ukraine",
+            "code": "UKR"
+          },
+          {
+            "name": "Uzbekistan",
+            "code": "UZB"
+          },
+          {
+            "name": "Lebanon",
+            "code": "LBN"
+          },
+          {
+            "name": "Russian Federation",
+            "code": "RUS"
+          },
+          {
+            "name": "Armenia",
+            "code": "ARM"
+          },
+          {
+            "name": "Azerbaijan",
+            "code": "AZE"
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "code": "BIH"
+          },
+          {
+            "name": "Belarus",
+            "code": "BLR"
+          },
+          {
+            "name": "Czechia",
+            "code": "CZE"
+          },
+          {
+            "name": "Estonia",
+            "code": "EST"
+          },
+          {
+            "name": "Croatia",
+            "code": "HRV"
+          },
+          {
+            "name": "Kazakhstan",
+            "code": "KAZ"
+          },
+          {
+            "name": "Lithuania",
+            "code": "LTU"
+          },
+          {
+            "name": "Latvia",
+            "code": "LVA"
+          },
+          {
+            "name": "Moldova",
+            "code": "MDA"
+          },
+          {
+            "name": "North Macedonia",
+            "code": "MKD"
+          },
+          {
+            "name": "Poland",
+            "code": "POL"
+          },
+          {
+            "name": "Romania",
+            "code": "ROU"
+          },
+          {
+            "name": "Slovak Republic",
+            "code": "SVK"
+          },
+          {
+            "name": "Slovenia",
+            "code": "SVN"
+          },
+          {
+            "name": "Timor-Leste",
+            "code": "TLS"
+          },
+          {
+            "name": "Yemen, Rep.",
+            "code": "YEM"
+          },
+          {
+            "name": "Eritrea",
+            "code": "ERI"
+          },
+          {
+            "name": "Serbia",
+            "code": "SRB"
+          },
+          {
+            "name": "Montenegro",
+            "code": "MNE"
+          },
+          {
+            "name": "San Marino",
+            "code": "SMR"
+          },
+          {
+            "name": "Afghanistan",
+            "code": "AFG"
+          },
+          {
+            "name": "South Sudan",
+            "code": "SSD"
+          },
+          {
+            "name": "Djibouti",
+            "code": "DJI"
+          }
+        ],
+        "geographic_units": [
+          {
+            "name": "Caribbean small states",
+            "code": "CSS",
+            "type": null
+          },
+          {
+            "name": "East Asia & Pacific (excluding high income)",
+            "code": "EAP",
+            "type": null
+          },
+          {
+            "name": "Early-demographic dividend",
+            "code": "EAR",
+            "type": null
+          },
+          {
+            "name": "East Asia & Pacific",
+            "code": "EAS",
+            "type": null
+          },
+          {
+            "name": "Europe & Central Asia",
+            "code": "ECS",
+            "type": null
+          },
+          {
+            "name": "Euro area",
+            "code": "EMU",
+            "type": null
+          },
+          {
+            "name": "European Union",
+            "code": "EUU",
+            "type": null
+          },
+          {
+            "name": "Fragile and conflict affected situations",
+            "code": "FCS",
+            "type": null
+          },
+          {
+            "name": "High income",
+            "code": "HIC",
+            "type": null
+          },
+          {
+            "name": "Heavily indebted poor countries (HIPC)",
+            "code": "HPC",
+            "type": null
+          },
+          {
+            "name": "IBRD only",
+            "code": "IBD",
+            "type": null
+          },
+          {
+            "name": "IDA & IBRD total",
+            "code": "IBT",
+            "type": null
+          },
+          {
+            "name": "IDA total",
+            "code": "IDA",
+            "type": null
+          },
+          {
+            "name": "IDA blend",
+            "code": "IDB",
+            "type": null
+          },
+          {
+            "name": "Latin America & Caribbean (excluding high income)",
+            "code": "LAC",
+            "type": null
+          },
+          {
+            "name": "Latin America & Caribbean",
+            "code": "LCN",
+            "type": null
+          },
+          {
+            "name": "Lower middle income",
+            "code": "LMC",
+            "type": null
+          },
+          {
+            "name": "Low & middle income",
+            "code": "LMY",
+            "type": null
+          },
+          {
+            "name": "Late-demographic dividend",
+            "code": "LTE",
+            "type": null
+          },
+          {
+            "name": "Middle East and North Africa",
+            "code": "MEA",
+            "type": null
+          },
+          {
+            "name": "Middle income",
+            "code": "MIC",
+            "type": null
+          },
+          {
+            "name": "Middle East & North Africa (excluding high income)",
+            "code": "MNA",
+            "type": null
+          },
+          {
+            "name": "North America",
+            "code": "NAC",
+            "type": null
+          },
+          {
+            "name": "OECD members",
+            "code": "OED",
+            "type": null
+          },
+          {
+            "name": "Pre-demographic dividend",
+            "code": "PRE",
+            "type": null
+          },
+          {
+            "name": "Post-demographic dividend",
+            "code": "PST",
+            "type": null
+          },
+          {
+            "name": "South Asia",
+            "code": "SAS",
+            "type": null
+          },
+          {
+            "name": "Sub-Saharan Africa (excluding high income)",
+            "code": "SSA",
+            "type": null
+          },
+          {
+            "name": "Sub-Saharan Africa",
+            "code": "SSF",
+            "type": null
+          },
+          {
+            "name": "East Asia & Pacific (IDA & IBRD)",
+            "code": "TEA",
+            "type": null
+          },
+          {
+            "name": "Latin America & Caribbean (IDA & IBRD)",
+            "code": "TLA",
+            "type": null
+          },
+          {
+            "name": "Middle East & North Africa (IDA & IBRD)",
+            "code": "TMN",
+            "type": null
+          },
+          {
+            "name": "South Asia (IDA & IBRD)",
+            "code": "TSA",
+            "type": null
+          },
+          {
+            "name": "Sub-Saharan Africa (IDA & IBRD)",
+            "code": "TSS",
+            "type": null
+          },
+          {
+            "name": "Upper middle income",
+            "code": "UMC",
+            "type": null
+          },
+          {
+            "name": "World",
+            "code": "WLD",
+            "type": null
+          },
+          {
+            "name": "IDA only",
+            "code": "IDX",
+            "type": null
+          },
+          {
+            "name": "Least developed countries: UN classification",
+            "code": "LDC",
+            "type": null
+          },
+          {
+            "name": "Arab World",
+            "code": "ARB",
+            "type": null
+          },
+          {
+            "name": "Pacific island small states",
+            "code": "PSS",
+            "type": null
+          },
+          {
+            "name": "Small states",
+            "code": "SST",
+            "type": null
+          },
+          {
+            "name": "Other small states",
+            "code": "OSS",
+            "type": null
+          },
+          {
+            "name": "Low income",
+            "code": "LIC",
+            "type": null
+          },
+          {
+            "name": "Europe & Central Asia (excluding high income)",
+            "code": "ECA",
+            "type": null
+          },
+          {
+            "name": "Europe & Central Asia (IDA & IBRD)",
+            "code": "TEC",
+            "type": null
+          },
+          {
+            "name": "Central Electricity Board (CEB)",
+            "code": "CEB",
+            "type": null
+          }
+        ],
+        "aggregation_method_references": [],
+        "license": [
+          {
+            "name": "CC BY 4.0",
+            "uri": "https://creativecommons.org/licenses/by/4.0/",
+            "note": "This work is provided under a Creative Commons 4.0 Attribution International License, with the following mandatory and binding addition:i. Any and all disputes arising under this License that cannot be settled amicably shall be submitted to mediation in accordance with the WIPO Mediation Rules in effect at the time the work was published. If the request for mediation is not resolved within forty-five (45) days of the request, either You or the Licensor may, pursuant to a notice of arbitration communicated by reasonable means to the other party refer the dispute to final and binding arbitration to be conducted in accordance with UNCITRAL Arbitration Rules as then in force. The arbitral tribunal shall consist of a sole arbitrator and the language of the proceedings shall be English unless otherwise agreed. The place of arbitration shall be where the Licensor has its headquarters. The arbitral proceedings shall be conducted remotely (e.g., via telephone conference or written submissions) whenever practicable, or held at the World Bank headquarters in Washington DC."
+          }
+        ],
+        "links": [
+          {
+            "type": "Website",
+            "description": "Data catalog",
+            "uri": "https://datacatalog.worldbank.org/int/search/dataset/0037651/Environment--Social-and-Governance-Data",
+            "image_uri": null
+          },
+          {
+            "type": "API",
+            "description": "World Bank Indicators API",
+            "uri": "https://api.worldbank.org/v2/source/75/indicators",
+            "image_uri": null
+          }
+        ],
+        "api_documentation": [],
+        "sources": [
+          {
+            "idno": null,
+            "type": null,
+            "name": "National Accounts Data",
+            "organization": "World Bank (WB)",
+            "publisher": null,
+            "publication_date": null,
+            "uri": "https://www.worldbank.org/",
+            "access_date": null,
+            "note": null,
+            "other_identifiers": [],
+            "authors": [],
+            "datasets": []
+          },
+          {
+            "idno": null,
+            "type": null,
+            "name": "National Accounts Data",
+            "organization": "Organisation for Economic Co-operation and Development (OECD)",
+            "publisher": null,
+            "publication_date": null,
+            "uri": "https://www.oecd.org/",
+            "access_date": null,
+            "note": null,
+            "other_identifiers": [],
+            "authors": [],
+            "datasets": []
+          }
+        ],
+        "notes": [],
+        "related_indicators": []
+      },
+      "tags": [],
+      "additional": {
+        "metadata_link": [
+          {
+            "type": "primary",
+            "metadata_id": "META_WB_WDI_NY_GDP_MKTP_KD_ZG",
+            "database_id": "WB_WDI",
+            "database_name": "World Development Indicators (WDI)"
+          }
+        ],
+        "visualization": {
+          "scale_type": null,
+          "legend_type": null,
+          "axis_type": null,
+          "notes": null,
+          "axis_values": null,
+          "axis_values_params": null,
+          "display_name": null,
+          "suppression": null,
+          "div_params": [],
+          "axis_type_params": [],
+          "bin_params": [],
+          "missing_data": []
+        }
+      },
+      "product": null,
+      "disaggregation_codes": [],
+      "admin_metadata": {
+        "gafs": null
+      }
+    }
+  ]
+}

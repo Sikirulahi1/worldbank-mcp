@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://itsda-dataexp-prd.search.windows.net/indexes('data360-metadata-vector')/$metadata#docs(*)",
+  "@odata.count": 4169,
+  "value": [
+    {
+      "@search.score": 51.44737,
+      "series_description": {
+        "idno": "WB_HNP_SP_POP_TOTL_ZS",
+        "name": "Population (% of total population)",
+        "database_id": "WB_HNP"
+      }
+    },
+    {
+      "@search.score": 50.018528,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_0014_TO_ZS",
+        "name": "Population ages 0-14 (% of total population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 48.81248,
+      "series_description": {
+        "idno": "WB_HNP_SP_POP_TOTL",
+        "name": "Population, total",
+        "database_id": "WB_HNP"
+      }
+    },
+    {
+      "@search.score": 47.33683,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_65UP_TO_ZS",
+        "name": "Population ages 65 and above (% of total population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 47.24819,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_1564_TO_ZS",
+        "name": "Population ages 15-64 (% of total population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 43.81144,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_65UP_FE_ZS",
+        "name": "Population ages 65 and above, female (% of female population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 43.23183,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_0014_TO",
+        "name": "Population ages 0-14, total",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 42.28801,
+      "series_description": {
+        "idno": "WB_GS_SP_POP_ZS",
+        "name": "Population (age group as % of total population)",
+        "database_id": "WB_GS"
+      }
+    },
+    {
+      "@search.score": 42.277317,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_TOTL_MA_ZS",
+        "name": "Population, male (% of total population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 42.249676,
+      "series_description": {
+        "idno": "WB_WDI_SP_POP_0014_MA_ZS",
+        "name": "Population ages 0-14, male (% of male population)",
+        "database_id": "WB_WDI"
+      }
+    }
+  ]
+}

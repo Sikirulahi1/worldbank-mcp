@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://itsda-dataexp-prd.search.windows.net/indexes('data360-metadata-vector')/$metadata#docs(*)",
+  "@odata.count": 914,
+  "value": [
+    {
+      "@search.score": 21.649889,
+      "series_description": {
+        "idno": "WB_ESG_NY_GDP_MKTP_KD_ZG",
+        "name": "GDP growth (annual %)",
+        "database_id": "WB_ESG"
+      }
+    },
+    {
+      "@search.score": 21.649889,
+      "series_description": {
+        "idno": "WB_GS_NY_GDP_MKTP_KD_ZG",
+        "name": "GDP growth (annual %)",
+        "database_id": "WB_GS"
+      }
+    },
+    {
+      "@search.score": 20.819328,
+      "series_description": {
+        "idno": "WB_CLEAR_NY_GDP_MKTP_KD_ZG",
+        "name": "GDP growth (annual %)",
+        "database_id": "WB_CLEAR"
+      }
+    },
+    {
+      "@search.score": 20.595543,
+      "series_description": {
+        "idno": "WB_WDI_SL_GDP_PCAP_EM_KD",
+        "name": "GDP per person employed (constant 2021 PPP $)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 20.452732,
+      "series_description": {
+        "idno": "WB_HNP_SE_XPD_TOTL_GD_ZS",
+        "name": "Government expenditure on education, total (% of GDP)",
+        "database_id": "WB_HNP"
+      }
+    },
+    {
+      "@search.score": 20.399529,
+      "series_description": {
+        "idno": "WB_GS_NY_GDP_PCAP_KD",
+        "name": "GDP per capita (constant 2010 US$)",
+        "database_id": "WB_GS"
+      }
+    },
+    {
+      "@search.score": 20.021368,
+      "series_description": {
+        "idno": "WB_CLEAR_NY_GDP_PCAP_KD_ZG",
+        "name": "GDP per capita growth (annual %)",
+        "database_id": "WB_CLEAR"
+      }
+    },
+    {
+      "@search.score": 19.866268,
+      "series_description": {
+        "idno": "FAO_AS_4113",
+        "name": "Agriculture, value added (% GDP)",
+        "database_id": "FAO_AS"
+      }
+    },
+    {
+      "@search.score": 19.693836,
+      "series_description": {
+        "idno": "WB_WDI_PA_NUS_PPP",
+        "name": "PPP conversion factor, GDP (LCU per international $)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 19.378162,
+      "series_description": {
+        "idno": "WB_WDI_NY_GDP_MKTP_PP_CD",
+        "name": "GDP, PPP (current international $)",
+        "database_id": "WB_WDI"
+      }
+    }
+  ]
+}

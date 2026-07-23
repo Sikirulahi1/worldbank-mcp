@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://itsda-dataexp-prd.search.windows.net/indexes('data360-metadata-vector')/$metadata#docs(*)",
+  "@odata.count": 1368,
+  "value": [
+    {
+      "@search.score": 42.130676,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_GAPS",
+        "name": "Poverty gap at $3.00 a day (2021 PPP) (%)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 40.829906,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_LMIC",
+        "name": "Poverty headcount ratio at $4.20 a day (2021 PPP) (% of population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 40.47054,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_NAHC",
+        "name": "Poverty headcount ratio at national poverty lines (% of population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 38.32724,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_LMIC_GP",
+        "name": "Poverty gap at $4.20 a day (2021 PPP) (%)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 38.291653,
+      "series_description": {
+        "idno": "WB_PIP_HEADCOUNT_IPL",
+        "name": "Poverty headcount ratio (2021 PPP, $3.00)",
+        "database_id": "WB_PIP"
+      }
+    },
+    {
+      "@search.score": 36.938602,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_UMIC",
+        "name": "Poverty headcount ratio at $8.30 a day (2021 PPP) (% of population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 35.481346,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_DDAY",
+        "name": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 35.085167,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_MPWB",
+        "name": "Multidimensional poverty headcount ratio (World Bank) (% of population)",
+        "database_id": "WB_WDI"
+      }
+    },
+    {
+      "@search.score": 34.184067,
+      "series_description": {
+        "idno": "WB_PIP_HEADCOUNT_LMIC",
+        "name": "Poverty headcount ratio (2021 PPP, $4.20)",
+        "database_id": "WB_PIP"
+      }
+    },
+    {
+      "@search.score": 34.142696,
+      "series_description": {
+        "idno": "WB_WDI_SI_POV_SOPO",
+        "name": "Poverty headcount ratio at societal poverty line (% of population)",
+        "database_id": "WB_WDI"
+      }
+    }
+  ]
+}
