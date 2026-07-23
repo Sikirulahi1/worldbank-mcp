@@ -28,9 +28,7 @@ jobs:
     needs: lint
     runs-on: ubuntu-latest
     env:
-      JWT_SECRET_KEY: ci-test-jwt-secret-key-for-github-actions
-      INTERNAL_API_KEY: ci-test-internal-api-key
-      VECTOR_STORE_URL: postgresql+asyncpg://postgres:postgres@localhost:5432/ai_vectors_test
+      WORLDBANK_TIMEOUT_SECONDS: "60"
     steps:
       - uses: actions/checkout@v4
 
