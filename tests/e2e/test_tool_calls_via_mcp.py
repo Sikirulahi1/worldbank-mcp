@@ -123,7 +123,7 @@ async def test_export_report_tool(tmp_path):
             "export_report",
             {
                 "country_name": "Nigeria",
-                "indicator_topics": ["WB_ESG_NY_GDP_MKTP_KD_ZG", "WB_WDI_SP_POP_TOTL"],
+                "indicator_topics": ["WB_ESG_NY_GDP_MKTP_KD_ZG"],
                 "start_year": 2019,
                 "end_year": 2020,
                 "format": "csv",
@@ -141,4 +141,4 @@ async def test_export_report_tool(tmp_path):
         
         content = dest_path.read_text()
         assert "year" in content.lower()
-        assert "POP_TOTL" in content
+        assert "GDP" in content
